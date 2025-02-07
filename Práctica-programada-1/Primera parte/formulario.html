@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulario de Registro</h2>
+        <p>Favor llene el siguiente formulario para su registro correcto</p>
+        <form>
+            <label for="Primer nombre">Ingrese su primer nombre:</label>
+            <input type="text" id="primer" name="Primer nombre" required>
+
+            <label for="Apellido">Enter Your Last Name:</label>
+            <input type="text" name="Apellido">
+
+            <label for="Email">Agregue por favor su email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="Password">Cree su contraseña por favor:</label>
+            <input type="password" id="password">
+
+            <div class="radio-group">
+                <p>Elija el tipo de su cuenta</p>
+                <label><input type="radio" name="Tipo" value="Personal"> Personal</label>
+                <label><input type="radio" name="Cuenta" value="Ejecutiva"> Ejecutiva</label>
+            </div>
+
+
+            <button>Registrarse</button>
+        </form>
+    </div>
+</body>
+
+</html>

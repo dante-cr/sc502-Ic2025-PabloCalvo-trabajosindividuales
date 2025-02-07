@@ -1,0 +1,66 @@
+/* Estilos personalizados */
+.navbar-nav a:hover {
+    color: #007bff; /* Azul brillante para el hover */
+}
+
+.perfil-doctor {
+    margin-top: 30px;
+    background-color: #f1f9ff; /* Fondo suave azul para la sección */
+}
+
+#nombre-doctor {
+    color: #0a80ee; /* Azul para el nombre del doctor */
+}
+
+#especialidad {
+    color: #0056b3; /* Azul más oscuro para la especialidad */
+}
+
+#descripcion-doctor {
+    color: #333; /* Texto oscuro para la descripción */
+}
+
+.tarjeta-comentario {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #0a80ee; /* Borde azul para las tarjetas */
+    border-radius: 8px;
+    background-color: #e6f2ff; /* Fondo azul claro para las tarjetas */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.tarjeta-comentario:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: #007bff; /* Cambio de borde al hacer hover */
+}
+
+.btn-agendar {
+    background-color: #0a80ee; /* Botón azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-agendar:hover {
+    background-color: #007bff; /* Azul más brillante al pasar el ratón */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .tarjeta-comentario {
+        width: 100%;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -11,10 +11,10 @@ function agregarUsuario() {
     }
 
     if (editandoIndex === null) {
-        // Agregar nuevo usuario
+  
         usuarios.push({ nombre, email });
     } else {
-        // Editar usuario existente
+
         usuarios[editandoIndex] = { nombre, email };
         editandoIndex = null;
     }

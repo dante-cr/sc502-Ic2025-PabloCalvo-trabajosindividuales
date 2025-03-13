@@ -1,0 +1,12 @@
+Estado de Cuenta
+----------------------------------------
+ID: 1 - Compra en supermercado - ₡15,000
+ID: 2 - Pago de servicios - ₡20,051
+ID: 3 - Compra en línea - ₡12,076
+ID: 4 - Pago de membresía - ₡8,000
+ID: 5 - Compra colchón - ₡389,000
+----------------------------------------
+Total de contado: ₡444,126
+Total con interés (2.6%): ₡455,674
+Cash back (0.1%): ₡444
+Monto final a pagar: ₡455,229
